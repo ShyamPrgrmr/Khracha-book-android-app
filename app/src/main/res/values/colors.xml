@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5F5D5D</color>
+    <color name="colorPrimaryDark">#BCBCBC</color>
+    <color name="colorAccent">#5F5D5D</color>
+    <color name="colorListSearch">#C5BEC0</color>
+    <color name="colorListSearchText">#000000</color>
+    <color name="colorWarning">#FC0303</color>
+    <color name="colorTransperent">#00FFFFFF</color>
+    <color name="colorListBackground">#B59E9B9B</color>
+    <color name="colorEditBackground">#E03535</color>
+    <color name="colorDeleteBackground">#669427</color>
+    <color name="coloeTextWhite">#FFFFFF</color>
+    <color name="colorblacktr">#9E000000</color>
+</resources>

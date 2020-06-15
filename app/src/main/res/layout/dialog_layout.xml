@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16sp"
+    >
+
+    <EditText
+        android:id="@+id/dialog_input_start_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/label_dialog_start_date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/dialog_input_end_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="91dp"
+        android:ems="10"
+        android:hint="@string/label_dialog_end_date"
+        android:inputType="date" />
+
+</RelativeLayout>

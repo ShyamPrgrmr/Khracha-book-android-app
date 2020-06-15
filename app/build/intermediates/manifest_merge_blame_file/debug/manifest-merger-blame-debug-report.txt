@@ -1,0 +1,120 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.inventory_manager.kharcha_book"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:5:5-81
+11-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:5:22-78
+12
+13    <uses-feature
+13-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:7:5-9:36
+14        android:name="android.hardware.camera"
+14-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:8:9-47
+15        android:required="false" />
+15-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:9:9-33
+16    <uses-feature
+16-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:10:5-12:36
+17        android:name="android.hardware.camera.autofocus"
+17-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:11:9-57
+18        android:required="false" />
+18-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:12:9-33
+19    <uses-feature
+19-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:13:5-15:36
+20        android:name="android.hardware.camera.flash"
+20-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:14:9-53
+21        android:required="false" />
+21-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:15:9-33
+22
+23    <uses-permission android:name="android.permission.CAMERA" />
+23-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:17:5-65
+23-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:17:22-62
+24    <uses-permission android:name="ANDROID.PERMISSION.READ_EXTERNAL_STORAGE" />
+24-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:18:5-80
+24-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:18:22-77
+25
+26    <application
+26-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:20:5-56:19
+27        android:allowBackup="true"
+27-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:21:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.0.1] /home/aspire/.gradle/caches/transforms-2/files-2.1/8f8ab13dc8f4e84e14a8bb3d9ac92bc4/core-1.0.1/AndroidManifest.xml:22:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher_round"
+30-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:22:9-49
+31        android:label="@string/app_name"
+31-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:23:9-41
+32        android:roundIcon="@mipmap/ic_launcher_foreground"
+32-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:24:9-59
+33        android:supportsRtl="true"
+33-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:25:9-35
+34        android:testOnly="true"
+35        android:theme="@style/AppTheme" >
+35-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:26:9-40
+36        <activity
+36-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:27:9-29:25
+37            android:name="com.inventory_manager.kharcha_book.PopupImage"
+37-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:27:19-45
+38            android:theme="@style/Theme.AppCompat.Dialog.Alert" />
+38-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:28:13-64
+39        <activity
+39-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:30:9-34:52
+40            android:name="com.inventory_manager.kharcha_book.InfoActivity"
+40-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:31:13-41
+41            android:label="@string/app_name"
+41-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:32:13-45
+42            android:parentActivityName="com.inventory_manager.kharcha_book.MainActivity"
+42-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:33:13-55
+43            android:screenOrientation="portrait" />
+43-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:34:13-49
+44        <activity
+44-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:35:9-39:52
+45            android:name="com.inventory_manager.kharcha_book.setting"
+45-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:36:13-36
+46            android:label="@string/app_name"
+46-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:37:13-45
+47            android:parentActivityName="com.inventory_manager.kharcha_book.MainActivity"
+47-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:38:13-55
+48            android:screenOrientation="portrait" />
+48-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:39:13-49
+49        <activity
+49-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:40:9-44:52
+50            android:name="com.inventory_manager.kharcha_book.ListActivity"
+50-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:41:13-41
+51            android:label="@string/app_name"
+51-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:42:13-45
+52            android:parentActivityName="com.inventory_manager.kharcha_book.MainActivity"
+52-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:43:13-55
+53            android:screenOrientation="portrait" />
+53-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:44:13-49
+54        <activity
+54-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:45:9-55:20
+55            android:name="com.inventory_manager.kharcha_book.MainActivity"
+55-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:46:13-41
+56            android:label="@string/app_name"
+56-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:47:13-45
+57            android:screenOrientation="portrait"
+57-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:48:13-49
+58            android:theme="@style/AppTheme.NoActionBar" >
+58-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:49:13-56
+59            <intent-filter>
+59-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:50:13-54:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:51:17-69
+60-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:51:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:53:17-77
+62-->/home/aspire/AndroidStudioProjects/Kharcha_Book/app/src/main/AndroidManifest.xml:53:27-74
+63            </intent-filter>
+64        </activity>
+65    </application>
+66
+67</manifest>

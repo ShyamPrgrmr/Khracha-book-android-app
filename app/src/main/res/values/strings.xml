@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Kharcha Book</string>
+    <string name="action_settings">Personalize</string>
+    <string name="action_info">Info</string>
+    <string name="label_Name">Enter Name</string>
+    <string name="label_Date">Date</string>
+    <string name="label_time">Time</string>
+    <string name="label_Amount">Enter Amount</string>
+    <string name="hint_name">Where you have spend your money?</string>
+    <string name="hint_Amount">How much money you have spend?</string>
+    <string name="hint_note">Enter note</string>
+    <string name="label_spend_money">Total Expenses</string>
+    <string name="lable_this_month">This Month : </string>
+    <string name="label_this_week">This Week : </string>
+    <string name="label_this_year">This Year : </string>
+    <string name="label_money_limit_week">Enter Expense Limit for week</string>
+    <string name="label_money_limit_day">Enter Expense Limit for day</string>
+    <string name="label_money_limit_month">Enter Expense Limit for month</string>
+    <string name="head_1">Add New Expense Entry</string>
+    <string name="head_2">Set Expense Limit</string>
+    <string name="head_3">List Of Expenses</string>
+    <string name="hint_money_limit">Enter amount</string>
+    <string name="label_sort_by"> Show expenses for</string>
+    <string name="label_dialog_start_date">Select Start Date ex. 12/12/2020</string>
+    <string name="label_dialog_end_date">Select End Date ex. 12/12/2020</string>
+    <string name="listShowTotalExpense">Total Expense : </string>
+    <string name="setting_info_text">These limits are already added you can change them by updating values.</string>
+    <string name="download_monthly_report">Download Monthly Report</string>
+    <string name="download_custom_report">Download Custom Report</string>
+    <string name="label_dialog2_name">Enter new name</string>
+    <string name="label_dialog2_amount">Enter new amount</string>
+    <string name="label_dialog2_date">Enter new note</string>
+    <string name="label_dialog3_Head">Expense Details</string>
+    <string name="label_dialog3_name">Name   : </string>
+    <string name="label_dialog3_amount">Amount : </string>
+    <string name="label_dialog3_date">Date   : </string>
+    <string name="label_dialog3_note">Note   : </string>
+    <string name="pick_image_intent_text">Select Image</string>
+    <string name="copyright">Designed and Developed by Shyam G. Pradhan</string>
+    <string name="NotificationText">Image Attached</string>
+    <string-array name="search_spinner_data">
+        <item>This Week</item>
+        <item>This Month</item>
+        <item>This Year </item>
+        <item>Custom</item>
+    </string-array>
+
+</resources>

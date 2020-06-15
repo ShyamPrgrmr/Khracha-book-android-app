@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="layout_width">412dp</dimen>
+    <dimen name="textField">16sp</dimen>
+    <dimen name="pTextField">16dp</dimen>
+    <dimen name="textHead">20dp</dimen>
+    <dimen name="fab_margin_bottom">70dp</dimen>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogBox2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:id="@+id/textview75"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Name" />
+
+    <EditText
+        android:id="@+id/dialog2Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/label_dialog2_name"
+        android:inputType="textPersonName|textCapSentences" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter amount" />
+
+    <EditText
+        android:id="@+id/dialog2Amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/label_dialog2_amount"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Note" />
+
+    <EditText
+        android:id="@+id/dialog2Note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/label_dialog2_date"
+        android:inputType="textPersonName|textCapSentences" />
+
+</LinearLayout>
